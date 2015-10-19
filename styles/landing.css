@@ -1,0 +1,91 @@
+body {
+	background: linear-gradient(rgba(241, 196, 15, 0.6), #fff);
+}
+
+.header-main {
+	width: 90%;
+	margin: 20px auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+	justify-content: space-between;
+}
+
+.site-navigation a {
+	display: inline-block;
+}
+
+.site-navigation button {
+	width: 100px;
+	height: 30px;
+	margin-right: 30px;
+	background: rgba(231, 76, 60,0.7);
+	border: none;
+	border-radius: 20px;
+}
+
+#product-synopsis {
+	width: 90%;
+	margin: 100px auto;
+}
+
+#tagline {
+	margin-bottom: 40px;
+}
+
+#start-writing {
+	width: 100px;
+	height: 100px;
+	background: none;
+	border: 3px double rgba(231, 76, 60,0.7);
+	border-radius: 100%;
+	margin-bottom: 30px;
+}
+
+#start-writing:hover {
+	background: rgba(231, 76, 60,0.7);
+}
+
+#start-writing:hover .fa {
+	color: #fff;
+}
+
+.next-page {
+	margin: 50px auto;
+	width: 50px;
+	height: 50px;
+	background: none;
+	border: none;
+	border-radius: 100%;
+}
+
+/* Second Page */
+#second-page {
+	padding-top: 100px;
+	
+}
+
+#second-page h1 {
+
+}
+
+#explain-concept {
+	padding-top: 100px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: no-wrap;
+	justify-content: space-around;
+}
+
+#explain-concept > div {
+	width: 200px;
+}
+
+.explain-icon {
+	width: 100px;
+	height: 100px;
+	border: 2px solid rgba(231, 76, 60, 1);
+	background: none;
+	border-radius: 100%;
+	margin-bottom: 30px;
+}
